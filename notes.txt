@@ -1,0 +1,118 @@
+Overflow:
+1. Visible
+2. Hidden
+3. Scroll
+4. Auto
+
+Example:
+.main {
+    border: 1px solid black;
+    padding: 12px;
+    height: 200px;
+    overflow: auto;
+}
+
+Task: 
+Bio Data, height: 100px, Overflow.
+Name
+Email
+Mobile No
+Github User link
+DOB
+SKILLS
+Education
+About
+
+Fonts:
+
+https://fonts.google.com/
+
+Example:
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+p{
+    color: blue;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+}
+
+Task:
+Font: Bungee Spice
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+p{
+    color: blue;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+}
+
+Icon:
+
+https://fontawesome.com/v4/icons/
+
+CDN: Content Delivery Network
+
+https://cdnjs.com/libraries/font-awesome/4.7.0
+
+CDN: 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+Task:
+User Icon
+
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 11 - HTML & CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p><i class="fa fa-grav gravity" aria-hidden="true"></i>This is a paragraph</p>
+</body>
+</html>
+
+Style.cc
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+.gravity{
+    color: pink;
+    font-size: 70px;
+}
+
+Media Query:
+            it is called RWD.
+            Responsive web design.
+
+            Syntax:
+            @media screen and (max-width: 360px){
+                /* css code for devices with width less than
+            }
+
+Example:
+ <div class="main">
+        <h1>Responsive web design</h1>
+    </div>
+
+Style.css
+.main{
+    background-color: aqua;
+    height: 100px;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 400px){
+    .main{
+        background-color: red;
+        height: 100px;
+        font-size: 15px;
+    }
+}
+
+Task: Media Query - Background Color
+600: blue
+400: green
+300: yellow
